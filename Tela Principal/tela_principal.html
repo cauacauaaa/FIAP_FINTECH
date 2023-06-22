@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fintech</title>
+    <!-- <link rel="stylesheet" href="estilo calculadora.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="tela_principal_style.css">
+
+</head>
+<body>
+    <header class="navbar navbar-expand-md bd-navbar sticky-top">
+        <a href="#" id="titulo" class="navbar-brand">FINTECH</a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#headerLinks" aria-label="Alternar navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="headerLinks" >
+            <ul class="navbar-nav" aria-label="Opções">
+                <li class="nav-item"><a href="" class="nav-link">HOME</a></li>
+                <li class="nav-item" aria-label="Link para tela de receitas"><a href="/Receitas/receita.html" class="nav-link">RECEITAS</a></li>
+                <li class="nav-item" aria-label="Link para tela de despesas"><a href="/Despesas/despesa.html" class="nav-link">DESPESAS</a></li>
+            </ul>
+        </div>
+    </header>
+    
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="mt-4 balanco">
+                        <div class="d-flex flex-row justify-content-center align-items-start py-3">
+                            <div class="d-flex flex-column justify-content-between w-75">
+                                <h4 class="resumo mb-3 " aria-label="Balanço mensal">Balanço Mensal</h4>
+                                <ul class="list-unstyled">
+                                    <li class="d-flex justify-content-between">
+                                        <span class="text-success" aria-label="Receitas do mês">Receitas</span>
+                                        <span class="text-success text-end" aria-label="Valor das receitas">R$ 0,00</span>
+                                    </li>
+                                    <li class="d-flex justify-content-between">
+                                        <span class="text-danger" aria-label="Despesas do mês">Despesas</span>
+                                        <span class="text-danger text-end" aria-label="Valor das despesas">R$ 0,00</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="mt-4 balanco">
+                        <div class="d-flex flex-row justify-content-center align-items-start py-3">
+                            <div class="d-flex flex-column justify-content-between w-75">
+                                <h4 class="resumo mb-3" aria-label="Despesas por categoria">Despesas por categoria</h4>
+                                <ul class="list-unstyled">
+                                    <li class="d-flex justify-content-between">
+                                        <span class="text-start" aria-label="Despesas na categoria casa">Casa</span>
+                                        <span class="text-end" aria-label="Valor das despesas na categoria casa">R$ 0,00</span>
+                                    </li>
+                                    <li class="d-flex justify-content-between">
+                                        <span class="text-start" aria-label="Despesas na categoria restaurante">Restaurante</span>
+                                        <span class="text-end" aria-label="Valor das despesas na categoria restaurante">R$ 0,00</span>
+                                    </li>
+                                    <li class="d-flex justify-content-between">
+                                        <span class="text-start" aria-label="Despesas na categoria eletrônicos">Eletrônicos</span>
+                                        <span class="text-end" aria-label="Valor das despesas na categoria eletrônicos">R$ 0,00</span>
+                                    </li>
+                                    <li class="d-flex justify-content-between">
+                                        <span class="text-start" aria-label="Despesas na categoria faculdade">Faculdade</span>
+                                        <span class="text-end" aria-label="Valor das despesas na categoria faculdade">R$ 0,00</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+</body>
+</html>

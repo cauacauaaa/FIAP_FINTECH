@@ -1,0 +1,17 @@
+body{
+    background-color: rgba(222, 0, 0, 0.904);
+}
+#subtitulo{
+    background-color: rgba(244, 7, 7, 0.19);
+}
+#informacoes{
+    background-color: white;
+    height: 297px;
+}
+#botao{
+    background-color: rgba(255, 1, 1, 0.819);
+}
+#add{
+    width: 48px;
+    height: 48px;
+}

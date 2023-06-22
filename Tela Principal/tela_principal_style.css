@@ -1,0 +1,14 @@
+body{
+    background-color:  #FEF6FF;
+    font-family: 'Inter', sans-serif;
+}
+#titulo{
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+}
+.resumo{
+    color: #875AC0;
+}
+.balanco{
+    background-color: #FFFF;
+}
